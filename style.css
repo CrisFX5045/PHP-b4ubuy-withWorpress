@@ -184,5 +184,5 @@ body{
 }
 
 .barraabajo{
-    flex-wrap: wrap;
+    flex-wrap: initial!important;
 }
