@@ -72,7 +72,7 @@
           <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png" width = "320px" height = "400px"  alt="...">
 
             <div class="card-body titulo_img_trending">
-            <h2>TITLE</h2>
+            <h4>TITLE</h4>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -87,7 +87,7 @@
           <div class="img_aling">
           <img src="https://i.blogs.es/30982f/nintendo-switch-sports/1366_2000.jpeg" width = "320px" height = "400px" alt="...">
             <div class="card-body titulo_img_trending">
-              <h2>TITLE</h2>
+              <h4>TITLE</h4>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -103,7 +103,7 @@
           <img src="https://media.discordapp.net/attachments/946451251552473189/973058447383871579/unknown.png" width = "320px" height = "400px" alt="...">
 
             <div class="card-body titulo_img_trending">
-            <h2>TITLE</h2>
+            <h4>TITLE</h4>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
