@@ -124,7 +124,7 @@
 <!--NAV BOTTOM-->
 <nav class="navbar navbar-light nav_botom_color">
 <div class="container-fluid nav_numbers_positions" >
-<div class="row ">
+<div class="row barraabajo">
       <div class="col-xxl-4 ">
         <div class="nav_bottom_content_column1"><p>2500</p></div>
         
