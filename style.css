@@ -2,17 +2,13 @@ body{
     background: rgb(255, 255, 255);
     color: black;
     margin-top: -2em;
-
+    
 }
 
 .logo{
     color:orange;
     text-decoration: none;
     font-size: 2em;
-    position: relative;
-    z-index: 102;
-    
-    margin-left: 1em;
 }
 
 .bg-light {
@@ -21,13 +17,28 @@ body{
     position: relative;
     z-index: 101;
 }
+@media (max-width: 900px) {
+    .bg-light {
+        
+        background-color: rgb(0 0 0 / 72%)!important;
+    }
+  }
+
+.text_Logros{
+   color:  beige;
+}
 
 .carousel {
     position: relative;
     bottom: 4em;
     text-align: center;
 }
-
+@media (max-width: 900px) {
+    .carousel {
+        
+       bottom: 0em; 
+    }
+  }
 .navbar-light .navbar-nav .nav-link {
 
     color: white;
@@ -35,28 +46,36 @@ body{
     z-index: 100;
 }
 
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    flex-direction: column;
-    
-}
-
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 3.5rem;
-    padding-left: .5rem;
-
+    margin-right: 3.5rem;
+    margin-left: .5rem;
+    text-align: center;
 }
 
+
+
+@media (min-width: 900px) {
+    .navbar-expand-lg .navbar-collapse {
+      
+        justify-content: space-evenly;
+    }
+  }
+  
 .nav-link:hover{
-        color: orange!important;
+        color: #ffa500!important;
 }
 
 .carousel-item{ 
         height: 48em;
         overflow: hidden;
 }
+@media (max-width: 900px) {
+    .carousel-item {
+        
+        height: 12em;
+    }
+  }
 
 .TextoTitulos{
     color: rgb(184, 123, 9);
@@ -65,17 +84,56 @@ body{
   
 }
 
+@media (max-width: 900px) {
+    .TextoTitulos {
+        
+        font-size: 1.4em;
+        margin-top: 1.2em;
+    }
+  }
+  .nav-link{
+      color: rgb(255, 255, 255);
+  }
 .trending{
 
     font-size: 1.7em;
 }
 
+.img_Ajustar{
+     width: 380px;
+     height: 500px;
+}
+@media (max-width: 900px) {
+    .img_Ajustar {
+        
+        width: 18em!important;
+    }
+  }
+
+
+.img_Ajustar{
+    width: 23em;
+    height: 29em;
+    overflow: hidden;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
 .Lineas{
     text-align: center;
     height: 1.5px;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(85, 34, 19);
     margin: 0em 18.5em 0em 18.5em;
 }
+
+
+@media (max-width: 900px) {
+    .Lineas {
+        
+        margin: 0em 3.5em 0em 3.5em;
+    }
+  }
 
 .textoComun{
     text-align: center;
@@ -184,5 +242,114 @@ body{
 }
 
 .barraabajo{
-    flex-wrap: none;
+    flex-wrap: none!important;
 }
+
+/*Pagina reviews*/
+
+.LineasReview{
+    text-align: center;
+    height: 3px;
+    background-color: rgb(184, 123, 9);
+    margin: 0em 6% 0em 6%;
+}
+
+.titulosReview{
+   color: rgb(184, 123, 9);
+    font-size: 3em;
+    margin: 1em 0 0.2em 2em ;
+
+}
+.img_AjustarReview{
+    width: 212px;
+    height: 524px;
+    overflow: hidden;
+    position: relative;
+
+}
+.tags{
+    color: aliceblue;
+    position: relative;
+    z-index: 99;
+    top: 10em;
+    font-size: 2em;
+    background-color: rgba(12, 29, 57, 0.54);
+    width: 100%;
+    text-decoration: none ;
+    
+}
+
+.btn{
+    color: aliceblue;
+    position: relative;
+    z-index: 99;
+    top: 13em;
+    left: 0.4em;
+    font-size: 1.5em;
+    background-color: rgba(12, 29, 57, 0.54);
+    width: 100%;
+    text-decoration: none ;
+    
+}
+.links{
+    text-decoration: none;
+}
+.btn:hover{
+    color: #ffa500;
+}
+/*REVIEWS GRID*/
+
+.rowGrid,
+.rowGrid > .column {
+  padding: 8px;
+}
+
+.column{
+    float: left;
+    width: 13%;
+    display: none; /* Hide columns by default */
+}
+/*Limpia los floats despues de los rows*/
+.rowGrid {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: none;
+  } 
+
+
+  /* Content */
+.content {
+    background-color: #ffa500;
+    padding: 10px;
+  }
+
+  /*  "show" filtra elementos */
+.show {
+    display: block;
+  }
+
+  .img_AjustarReviewGrid{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+
+.img_AjustarContent{
+    width: 400px;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+
+.img_AjustarImage{
+    width: 380px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+
