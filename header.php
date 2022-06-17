@@ -18,7 +18,7 @@
 
         <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-    <a class="logo" href="#">B4 U BUY</a>
+    <a class="logo" href="home">B4 U BUY</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,14 +30,15 @@
                         <a class="nav-link" href="reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="news">News</a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="#">Forum</a>
+                         <a class="nav-link" href="reviews">Forum</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="reviews">Contact</a>
                     </li>
+                 
             </ul>
        
       </div> 

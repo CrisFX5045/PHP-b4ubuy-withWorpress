@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div class="contanier">
   <div class="row">
     <div class="col-12 px-lg-5">
@@ -36,7 +35,7 @@
 
   <div class="col-2 ">
   <div>
-    <button class="btn active" onclick="filterSelection('ACTION')">ACTION </button> <!--Muestra como activo la categoria-->
+    <button class="btn_review active" onclick="filterSelection('ACTION')">ACTION </button> <!--Muestra como activo la categoria-->
   </div>
   
     <div class="img_AjustarReview "> 
@@ -46,7 +45,7 @@
 
     <div class="col-2">
     <div>
-    <button class="btn" onclick="filterSelection('STRATEGY')">STRATEGY </button> <!-- detecta el click por nombre-->
+    <button class="btn_review" onclick="filterSelection('STRATEGY')">STRATEGY </button> <!-- detecta el click por nombre-->
   </div>
 
   <div class="img_AjustarReview">
@@ -56,7 +55,7 @@
 
     <div class="col-2">
     <div> 
-    <button class="btn" onclick="filterSelection('SPORTS')">SPORTS </button> <!-- detecta el click por nombre-->
+    <button class="btn_review" onclick="filterSelection('SPORTS')">SPORTS </button> <!-- detecta el click por nombre-->
   </div>
 
     <div class="img_AjustarReview">
@@ -66,7 +65,7 @@
 
     <div class="col-2">
     <div>
-    <button class="btn" onclick="filterSelection('HORROR')">HORROR </button> <!-- detecta el click por nombre-->
+    <button class="btn_review" onclick="filterSelection('HORROR')">HORROR </button> <!-- detecta el click por nombre-->
   </div>
 
     <div class="img_AjustarReview">
@@ -76,7 +75,7 @@
 
     <div class="col-2">
     <div> 
-    <button class="btn" onclick="filterSelection('ADVENTURE')">ADVENTURE </button> <!-- detecta el click por nombre-->
+    <button class="btn_review" onclick="filterSelection('ADVENTURE')">ADVENTURE </button> <!-- detecta el click por nombre-->
   </div>
 
     <div class="img_AjustarReview">
@@ -94,33 +93,115 @@
   <div class="row rowGrid">
   <div class="column ACTION">
     <div class="content img_AjustarContent">
-      <a href="review_critic">
-      <img class="img_AjustarImage" src="https://cdn.discordapp.com/attachments/943543251703574558/978502951536570399/action_Mesa_de_trabajo_1.png" alt="">
-      </a>
+    <div class="flip-card">
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+      <img src="https://cdn.discordapp.com/attachments/943543251703574558/978502951536570399/action_Mesa_de_trabajo_1.png" alt="Avatar" style="width:380px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal">Read more</button>
+    </div>
+    
+     </div>
+     
+    </div>
     </div>
   </div>
 
   <div class="column STRATEGY">
     <div class="content img_AjustarContent">
-      <img class="img_AjustarImage" src="https://cdn.discordapp.com/attachments/943543251703574558/978508458603184148/straegy.png" alt="">
+
+    <div class="flip-card">
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+      <img src="https://cdn.discordapp.com/attachments/943543251703574558/978134025602482176/Nuevo_proyecto.png" alt="Avatar" style="width:380px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+      <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal">Read more</button>
+    </div>
+    
+     </div>
+     
+    </div>
+      
     </div>
   </div>
 
   <div class="column SPORTS">
     <div class="content img_AjustarContent">
-      <img class="img_AjustarImage" src="https://cdn.discordapp.com/attachments/943543251703574558/978509036846739496/sports_Mesa_de_trabajo_1.png" alt="">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+      <img src="https://cdn.discordapp.com/attachments/943543251703574558/978509036846739496/sports_Mesa_de_trabajo_1.png" alt="Avatar" style="width:380px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+      <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal">Read more</button>
+    </div>
+    
+     </div>
+     
+    </div>
     </div>
   </div>
 
   <div class="column HORROR">
     <div class="content img_AjustarContent">
-      <img class="img_AjustarImage" src="https://cdn.discordapp.com/attachments/943543251703574558/978509453429190656/horror_Mesa_de_trabajo_1.png" alt="">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+      <img src="https://cdn.discordapp.com/attachments/943543251703574558/978509453429190656/horror_Mesa_de_trabajo_1.png" alt="Avatar" style="width:380px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+      <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal">Read more</button>
+    </div>
+    
+     </div>
+    </div>
     </div>
   </div>
 
+  
   <div class="column ADVENTURE">
     <div class="content img_AjustarContent">
-      <img class="img_AjustarImage" src="https://media.discordapp.net/attachments/943543251703574558/978509798792368128/Adventure_Mesa_de_trabajo_1.png?width=671&height=671" alt="" >
+    <div class="flip-card">
+  <div class="flip-card-inner">
+
+    <div class="flip-card-front">
+      <img src="https://media.discordapp.net/attachments/943543251703574558/978509798792368128/Adventure_Mesa_de_trabajo_1.png?width=671&height=671" alt="Avatar" style="width:380px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+      <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal">Read more</button>
+    </div>
+    
+     </div>
+     
+    </div>
+     
     </div>
   </div>
 <!-- END GRID -->
