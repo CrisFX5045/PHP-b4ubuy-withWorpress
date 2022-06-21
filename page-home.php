@@ -66,9 +66,7 @@
          <br></br>
          <br></br>
 
-        <p class=textoComun> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas doloribus iure, rem veniam
-            , quam dignissimos dolores numquam, libero odio commodi eveniet blanditiis illo cumque sit. Provident voluptatem illo suscipit?  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas doloribus iure, rem veniam
-            , quam dignissimos dolores numquam, libero odio commodi eveniet blanditiis illo cumque sit. Provident voluptatem illo suscipit?</p>   </div>
+        <p class=textoComun> With us you can have updated information about trending games, we will give you the most honest opinion of your favorite game before you spend your money on a hype or find new games that might fit your taste. We are Before U Buy!</p>   </div>
     </div>
 
     <!--IMG-->
@@ -85,8 +83,8 @@
             <img src="https://i.blogs.es/41020b/cap_050/1366_2000.jpg" alt="...">
           </div>
             <div class="card-body titulo_img_trending">
-            <h4>TITLE</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h4>Google Stadia</h4>
+              <p class="card-text">The next generation "console" is now with us. Find more about the anticipated Google Stadia</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="review-critic">
@@ -104,8 +102,8 @@
           <img src="https://culturageek.com.ar/wp-content/uploads/2020/10/7fab97f8f1b400bdfd119561035c2b1d-1.jpg" alt="...">
           </div>
             <div class="card-body titulo_img_trending">
-              <h4>TITLE</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h4>Brawl Stars</h4>
+              <p class="card-text">Be part of the hype of an oldie but goldie. From the studio that brought you Diablo Inmortal we got you everything you should know about Brawl Stars</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="review-critic">
@@ -125,8 +123,8 @@
           
 
             <div class="card-body titulo_img_trending">
-            <h4>TITLE</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h4>Horizon Zero Dawn</h4>
+              <p class="card-text">New DLC coming for Horizon Zero Down looks like a banger and freshener title for the award winning videogame from Hideo Kojima.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="review-critic">

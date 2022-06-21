@@ -23,25 +23,20 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        
-            <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="news">News</a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link" href="reviews">Forum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reviews">Contact</a>
-                    </li>
-                 
-            </ul>
-       
-      </div> 
+     <?php
+     wp_nav_menu( array(
+        'theme_location'  => 'primary',
+        'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+        'container'       => 'div',
+        'container_class' => 'collapse navbar-collapse',
+        'container_id'    => 'bs-example-navbar-collapse-1',
+        'menu_class'      => 'navbar-nav mr-auto',
+        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+        'walker'          => new WP_Bootstrap_Navwalker(),
+    ) );
+     
+     ?>
+    
     </div>
   </nav>
         
