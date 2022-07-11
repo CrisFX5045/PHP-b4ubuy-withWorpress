@@ -109,9 +109,7 @@
          <br></br>
          <br></br>
 
-        <p class=textoComun> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas doloribus iure, rem veniam
-            , quam dignissimos dolores numquam, libero odio commodi eveniet blanditiis illo cumque sit. Provident voluptatem illo suscipit?  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas doloribus iure, rem veniam
-            , quam dignissimos dolores numquam, libero odio commodi eveniet blanditiis illo cumque sit. Provident voluptatem illo suscipit?</p>   </div>
+        <p class=textoComun> With us you have updated information about trending games, we will give you the most honest opinion of your favorite game before you spend your money on a hype, also with us you can find new games that might fit your taste. Upcoming events and games that the whole world is waiting for or they are already on it! We are for you, we are Before U Buy!</p>   </div>
     </div>
 
     <!--IMG-->

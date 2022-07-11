@@ -15,11 +15,8 @@
       
     </div>
     <div class="col-10 text-center mt-4 mb-1">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu libero pharetra, 
-    laoreet mi sed, molestie lectus. Suspendisse dignissim est nec venenatis egestas. 
-    Nam et eros id leo finibus tincidunt. Vestibulum eget tellus ornare, mattis nibh id,
-    luctus velit. Vivamus lacinia orci ut consequat efficitur. Nulla vehicula egestas libero, 
-    vel ullamcorper tellus dignissim ullamcorper. Etiam et eleifend orci, a porttitor ex.
+    Here you will find what the "Experts" say about your most enjoyed games and the trending ones, we don't call ourselves professionals but we are pure gamers from the core, old school style we leave a review for the world to know about a game before people spend their precious money on it, don't let the hype intimidate you, we are going to tell you if it's worth it with you not spending a cent, we leave honest reviews for a big variety of games 
+be confident we don't talk good about sponsors, becaus e we ahave none!
     </div>
     <div class="col"> 
     </div>

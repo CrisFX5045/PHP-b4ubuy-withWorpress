@@ -109,9 +109,8 @@
          <br></br>
          <br></br>
 
-        <p class=textoComun> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas doloribus iure, rem veniam
-            , quam dignissimos dolores numquam, libero odio commodi eveniet blanditiis illo cumque sit. Provident voluptatem illo suscipit?  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas doloribus iure, rem veniam
-            , quam dignissimos dolores numquam, libero odio commodi eveniet blanditiis illo cumque sit. Provident voluptatem illo suscipit?</p>   </div>
+        <p class=textoComun> <p class=textoComun> Con nosotros podés ver los exitos favoritos que se encuentran en tendendencia en el mundo de los videojuegos, además de una reseña honesta sobre videojuegos que podrián o no interesarte, ademas de eventos y juegos del momento o que nosotros los gamers esperemos ansiosos, todo esto antes de hacer tu inversión. Nosotros somos Before U Buy! </p>   </div>
+    </p>   </div>
     </div>
 
     <!--IMG-->

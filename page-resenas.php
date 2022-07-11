@@ -15,11 +15,7 @@
       
     </div>
     <div class="col-10 text-center mt-4 mb-1">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu libero pharetra, 
-    laoreet mi sed, molestie lectus. Suspendisse dignissim est nec venenatis egestas. 
-    Nam et eros id leo finibus tincidunt. Vestibulum eget tellus ornare, mattis nibh id,
-    luctus velit. Vivamus lacinia orci ut consequat efficitur. Nulla vehicula egestas libero, 
-    vel ullamcorper tellus dignissim ullamcorper. Etiam et eleifend orci, a porttitor ex.
+    Aqui encontraras lo que nosotros los "Expertos" opinamos sobre los juegos que mas te gustan y se encuentran en tendencia en el momento, no nos gusta llamarnos criticos profesionales pero somos gamers de la vieja escuela que pone su opinion para que el mundo la conozca antes de hacer una inversion, no te dejes llevar por el hype del momento, hace una buena inversion sabiendo que opinamos al respecto de una gran variedad de juegos, reseñas honestas y llenas de verdadero contenido porque aqui nadie se deja influir por ningun patrocinio
     </div>
     <div class="col"> 
     </div>
