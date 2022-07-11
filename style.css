@@ -432,6 +432,28 @@ margin-top: 1.5em;
       width: 377px;
     }
   }
+
+  .info-critic{
+
+    margin-top: 6em;
+    position: relative;
+    right: 2em;
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px){
+    .info-critic{
+
+      position: relative;
+      left: -2em;
+      bottom: 4em;
+    }
+  }
+
+  @media only screen and (min-width: 480px){
+    .responsive-evento{
+      margin-right: 5em;
+    }
+  }
   
   .barra-evento {
     position: absolute;
@@ -466,7 +488,7 @@ margin-top: 1.5em;
   
   .evento-title {
     font-family: LatoBold;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-transform: uppercase;
     width: auto;
     line-height: 1.7em;
@@ -499,7 +521,7 @@ margin-top: 1.5em;
   .evento-subtitle {
     font-family: LatoRegular;
     font-size: 1.5em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: left;
     margin-left: 4.7em;
   }
@@ -508,8 +530,8 @@ margin-top: 1.5em;
       font-size: 1em;
       text-align: center;
       width: 20em;
-      padding: 0;
-      margin: 10%;
+      padding: 20px;
+      margin: 0em 3em;
     }
   }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -542,7 +564,7 @@ margin-top: 1.5em;
   }
   
   .evento-main {
-    width: 100%;
+    width: 659px;
     height: 100%;
     background: url(/imgs/boxeo.jpg);
     background-size: cover;
@@ -550,18 +572,30 @@ margin-top: 1.5em;
     background-position: center;
     border: solid;
     border-color: #ffa500;
+    border-width: 10px;
   }
   .evento-main-AjustarImage{
-    width: 580px;
-    height: 600px;
+    width: 640px;
+    height: 645px;
     overflow: hidden;
     position: relative;
     margin-right: 10px;
-}
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px){
+    .evento-main-AjustarImage{
+      width: 359px;
+      height: 430px;
+      position: relative;
+  }
+  }
+
   @media only screen and (max-width: 480px) {
     .evento-main {
-      width: 22em;
-      height: 15em;
+      width: 23.700000000000003em;
+      height: 28em;
+      position: relative;
+      right: 8.5em;
     }
   }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -575,6 +609,11 @@ margin-top: 1.5em;
       width: 20em;
       height: 20em;
     }
+  }
+
+  .margen-img{
+    margin-left: 2em;
+    margin-right: 2em;
   }
   
   .dropdown {
@@ -679,7 +718,7 @@ margin-top: 1.5em;
   
   .relacionados {
     padding: 4em 0;
-    margin-top: 15%;
+    margin-top: 0%;
     font-family: LatoRegular;
     font-size: 1.5em;
     text-align: left;
@@ -696,6 +735,17 @@ margin-top: 1.5em;
     text-align: left;
     margin-left: 1em;
   }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    .relacionados {
+      text-align: center;
+      position: relative;
+      left: 5em;
+      top: 4.5em;
+      margin-bottom: 1em;
+    }
+  }
+
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .relacionado-title {
       padding-top: 1em;
@@ -735,7 +785,9 @@ margin-top: 1.5em;
     .txt-background {
       width: 22em;
       height: 15em;
-      margin-bottom: 5em;
+      margin-bottom: 14em;
+      position: relative;
+      top: 5em;
     }
   }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -761,11 +813,21 @@ margin-top: 1.5em;
     height: 320px;
     overflow: hidden;
     position: relative;
-}
-  @media only screen and (max-width: 480px) {
-    .relacionado-1 {
+  }
+
+  @media(max-width: 480px){
+    .relacionado_AjustarImage {
+  
       width: 352px;
       height: 320px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .relacionado-1 {
+      width: 22em;
+      height: 15em;
       overflow: hidden;
       position: relative;
     }

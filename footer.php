@@ -1,6 +1,6 @@
         <!-- footer -->
         <footer>
-        <div class="bg-dark text-secondary px-4 py-4 text-center">
+        <div class="bg-dark text-secondary mt-3 py-3 text-center">
           <div class="py-2">
             <h3 class=" logo display-5 fw-bold text-white">B4 U BUY</h3>
 
@@ -26,7 +26,7 @@
               </div>
             </div>
 
-            <p>&copy; 2022–2022 Company, Inc. &middot;</p>
+            <p class="mb-0">&copy; 2022–2022 Company, Inc. &middot;</p>
 </div>
         </footer>
         <!-- footer -->

@@ -1,122 +1,59 @@
-<?php get_header(); ?>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
-  
-</div>
-
-<div class="contanier">
-  <div class="row">
-    <div class="col-12 px-lg-5">
-<h2 class=titulosNews>News</h2>
-    </div>
-  </div>
-</div>
-
-<p class=LineasNews></p>  
+  <body>
+  <?php get_header(); ?>
 
 
-    <div class="container-fluid">
+ 
+  <main class="mw-100">
+    
+  <div class="p-4 p-md-1 mb-4 text-white  bg-white text-center portada-news">
+  <?php 
        
 
-        <!-- EVENTO HOME-->
-        
-        
-            <div class="row section-categories" >
-            
-            <div class="col-12 category-news"> | Action</div>
-            
-                <div class="col-2 ">                   
-                <a href="evento.php">        
-                    <div class="categories-main">
-                    </div>
-                </a>
-                </div>
-                
-                <div class="col-10 ">                   
-                        <h1 class="title-categories">Battlefield</h1><br>
-                        <div class="news-stars">
-                        <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span><br>
-                          </div>
-                        <h1 class="subtitle-categories">Battlefield 4 is a first-person shooter video game developed by EA Digital Illusions 
-                          CE and published by Electronic Arts on October 29, 2013 for Microsoft Windows, Xbox 360 and PlayStation 3.</h1>
-                    
-                </div>
+        //get posts from category
+        $wpb_all_query = new WP_Query(array('category_name' => 'news', 'posts_per_page' =>1));
 
-        <div class="col-12 division-categorias"></div>
+    ?>
 
-        <div class="col-2 ">                   
-                <a href="evento.php">        
-                    <div class="categories-secondary">
-                    </div>
-                </a>
-                </div>
-                
-                <div class="col-10 ">                   
-                        <h1 class="title-categories">Medal of Honor</h1><br>
+    <!-- the loop -->
+    <?php
+          while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); 
+          $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium');
+          ?>
 
-                        <div class="news-stars">
-                        <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span><br>
-                          </div>
+    <img src="<?php echo $featured_img_url; ?>" class="rounded w-100" alt="">
+    
+  </div>
+  </main>
+  <div class="container mw-75 col px-0 text-center">
+      <h2><?php the_title(); ?> </h2>
+      <h5><?php the_excerpt(__('(more…)')); ?></h5>
+      <p><a href="<?php the_permalink(); ?>" class="fw-bold">Continue reading...</a></p>
+      <?php endwhile; ?>
+    </div>
+    <main class="container mw-75">
+  
+    <div class="mt-2">
+  <div class="col-12 TextoTitulos">
+         <h2 class = "trending">News</h2>
+         <p class="Lineas-news rounded">
+         </p>  
+  </div>
+  </div>
 
-                        <h1 class="subtitle-categories">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</h1>
-                    
-                </div>
-
-                <div class="col-12 category-news"><h2> | Horror</h2></div>
-            
-                <div class="col-2 ">                   
-                <a href="evento.php">        
-                    <div class="categories-main">
-                    </div>
-                </a>
-                </div>
-                
-                <div class="col-10">                   
-                        <h1 class="title-categories">Silent Hill</h1><br>
-
-                        <div class="news-stars">
-                        <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span><br>
-                          </div>
-
-                        <h1 class="subtitle-categories">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</h1>
-                    
-                </div>
-
-        <div class="col-12 division-categorias"></div>
-
-        <div class="col-2 ">                   
-                <a href="evento.php">        
-                    <div class="categories-secondary">
-                    </div>
-                </a>
-                </div>
-                
-                <div class="col-10">                   
-                        <h1 class="title-categories">Resident Evil</h1><br>
-
-                        <div class="news-stars">
-                        <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span><br>
-                          </div>
-
-                        <h1 class="subtitle-categories">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</h1>
-                    
-                </div>
+  <div class="row mb-2">
 
 
-</div><!--AQUI TERMINA EL ROW-->
-</body>
+    <?php
+        get_template_part('includes/news'); 
+      ?>
+    
+  </div>
+
+  
+
+</main>
+
+  </body>
 
 <?php get_footer(); ?>

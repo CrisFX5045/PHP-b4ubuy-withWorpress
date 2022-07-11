@@ -1,9 +1,5 @@
 <?php
 
-require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
-
-//require_once('wp-bootstrap-navwalker.php');
-
     function load_assets(){
 
         //Permite cargar el BS CSS
@@ -20,13 +16,9 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
     add_action('wp_enqueue_scripts', 'load_assets');
 
+
     //Soporte para imagenes destacadas en paginas
 
     add_theme_support('post-thumbnails');
-    
-    
-    register_nav_menus(array(
-        'primary'=> __('Primary Menu')
-    ));
 
 ?>
